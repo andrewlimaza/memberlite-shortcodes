@@ -1,9 +1,9 @@
 === Memberlite Shortcodes ===
 Contributors: kimannwall, strangerstudios
 Tags: theme, shortcodes, memberlite, membership, pmpro, paid memberships pro
-Requires at least: 4.0
-Tested up to: 5.5.1
-Stable tag: 1.3.4
+Requires at least: 5.3
+Tested up to: 6.2.2
+Stable tag: 1.3.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -80,10 +80,34 @@ Some of the shortcodes in this plugin will work with any theme, but we cannot gu
 
 == Changelog ==
 
-= 1.3.4 - 2020-09-03 =
-* BUG FIX: Fixed logic to store active tab in cookie so return page load remembers your last tab.
-* ENHANCEMENT: Added feature to automatically expand the accordion item for an anchor link on page load.
-* ENHANCEMENT: Updated to Font Awesome version 5.14.0
+= 1.3.8 - 2023-06-13 =
+* ENHANCEMENT: Now supporting Font Awesome shortcode attributes for rotate, flip, and animate.
+* ENHANCEMENT: Updated to Font Awesome version 6.4.
+* ENHANCEMENT: Tested up to WordPress 6.2.2.
+
+= 1.3.7 - 2022-09-11 =
+* ENHANCEMENT: Added `show_children_depth` attribute to subpagelist shortcode to limit depth of children shown.
+* ENHANCEMENT: Updated to Font Awesome version 6.2.
+* ENHANCEMENT: Tested up to WordPress 6.0.
+
+= 1.3.6 - 2022-03-15 =
+* BUG FIX: Fixed a few strings that we not prepared for localization.
+* BUG FIX/ENHANCEMENT: Only load some CSS for shortcodes for sites not using Memberlite theme.
+* ENHANCEMENT: Updated to Font Awesome version 6.0.
+* ENHANCEMENT: Tested up to WordPress 5.9.2.
+
+= 1.3.5 - 2021-03-13 =
+* ENHANCEMENT: Updated to Font Awesome version 5.15.1.
+* ENHANCEMENT: Tested up to WordPress 5.7.
+* BUG FIX/ENHANCEMENT: Improved appearance of "link" style buttons.
+
+= 1.3.4 - 2020-09-14 =
+* BUG FIX/ENHANCEMENT: Fixed issue with localization to allow for proper translation.
+* BUG FIX/ENHANCEMENT: Improved the tabs shortcode to allow for hyperlink to a targeted tab and set as active.
+* BUG FIX/ENHANCEMENT: Improved the accordion shortcode to allow for hyperlink to a targeted accordion item and set as active.
+* BUG FIX: Removed code that was behaving inconsistently to set a cookie based on the last active tab visited.
+* ENHANCEMENT: Now using version 5.14.0 of Font Awesome.
+* ENHANCEMENT: Now tested up to WordPress 5.5.
 
 = 1.3.3 - 2020-04-30 =
 * BUG FIX: Fixed display bug for a recent post in shortcode output with no avatar or featured image.
